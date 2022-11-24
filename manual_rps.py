@@ -29,4 +29,4 @@ def get_winner(computer_choice, user_choice):
         print("You lost")
 
     else:
-        print("It is a tie")
+        print("It is a tie!")
