@@ -17,18 +17,17 @@ def get_winner(computer_choice, user_choice):
         if user_choice == 'Scissors':
             print("You lost")
         elif user_choice == 'Paper':
-            print("You won")
+            print("You won!")
 
     elif computer_choice == 'Paper':
         if user_choice == 'Scissors':
-            print("You won")
+            print("You won!")
         elif user_choice == 'Rock':
             print("You lost")
 
     elif computer_choice == 'Scissors':
         if user_choice == 'Rock':
-            print("You won")
+            print("You won!")
         elif user_choice == 'Paper':
             print("You lost")
 
-get_winner('Paper', 'Paper')
