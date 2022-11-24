@@ -31,3 +31,9 @@ def get_winner(computer_choice, user_choice):
         elif user_choice == 'Paper':
             print("You lost")
 
+def play():
+    get_computer_choice()
+    get_user_choice()
+    get_winner(get_computer_choice, get_user_choice)
+
+play()
