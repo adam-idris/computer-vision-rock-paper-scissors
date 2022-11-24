@@ -2,12 +2,12 @@ import random
 
 def get_computer_choice():
     rps = ["Rock", "Paper", "Scissors"]
-    choice = random.choice(rps)
-    return choice
+    computer_choice = random.choice(rps)
+    return computer_choice
 
 def get_user_choice():
-    choice = input("Choose Rock, Paper, or Scissors: ")
-    return choice
+    user_choice = input("Choose Rock, Paper, or Scissors: ")
+    return user_choice
 
 def get_winner(computer_choice, user_choice):
     if computer_choice == 'Rock' and user_choice == 'Scissors':
