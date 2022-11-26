@@ -26,4 +26,4 @@ The function get_user_choice is created to collect an input from the user. The i
 
 The final function get_winner determines the winner of the rock, paper, scissors game. It uses if and elif statements to simulate all the potential outcomes of the game. It will print the winner at the end.
 
-the play() function ties all these functions together and enables the user to play the game.
+the play() function ties all these functions together and enables the user to play the game by calling the previous two functions as arguments.
