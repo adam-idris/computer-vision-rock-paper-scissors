@@ -43,3 +43,5 @@ The final function get_winner determines the winner of the rock, paper, scissors
 the play() function ties all these functions together and enables the user to play the game by calling the previous two functions as arguments.
 
 # Milestone 5
+
+![My Image](ML_Ex.png)
